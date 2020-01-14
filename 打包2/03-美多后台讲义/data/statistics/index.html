@@ -1,0 +1,1125 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    <!-- Start book Django课程讲义 -->
+    <head>
+        <!-- head:start -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>数据统计 | Django课程讲义</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.6.7">
+        <meta name="author" content="BigCat">
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../../gitbook/plugins/gitbook-plugin-splitter/splitter.css">
+        
+    
+        
+        <link rel="stylesheet" href="../../gitbook/plugins/gitbook-plugin-toggle-chapters/toggle.css">
+        
+    
+        
+        <link rel="stylesheet" href="../../gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+        
+        <link rel="stylesheet" href="../../gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="../../data/statistics/total.html" />
+    
+    
+    <link rel="prev" href="../../data/logins/cors.html" />
+    
+
+        <!-- head:end -->
+    </head>
+    <body>
+        <!-- body:start -->
+        
+    <div class="book"
+        data-level="3"
+        data-chapter-title="数据统计"
+        data-filepath="data/statistics/README.md"
+        data-basepath="../.."
+        data-revision="Wed Jul 31 2019 21:03:52 GMT+0800 (CST)"
+        data-innerlanguage="">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        美多管理后台
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="data/project/index.html">
+            
+                
+                    <a href="../../data/project/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        项目搭建
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="data/logins/index.html">
+            
+                
+                    <a href="../../data/logins/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        管理员登录
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="data/logins/jwt.html">
+            
+                
+                    <a href="../../data/logins/jwt.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        JWT认证机制
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="data/logins/drf-jwt.html">
+            
+                
+                    <a href="../../data/logins/drf-jwt.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                        JWT扩展使用
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="data/logins/api.html">
+            
+                
+                    <a href="../../data/logins/api.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.</b>
+                        
+                        管理员登录
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="data/logins/cors.html">
+            
+                
+                    <a href="../../data/logins/cors.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.</b>
+                        
+                        CORS跨域
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter active" data-level="3" data-path="data/statistics/index.html">
+            
+                
+                    <a href="../../data/statistics/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                        数据统计
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1" data-path="data/statistics/total.html">
+            
+                
+                    <a href="../../data/statistics/total.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.</b>
+                        
+                        用户总数统计
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="data/statistics/increase.html">
+            
+                
+                    <a href="../../data/statistics/increase.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.</b>
+                        
+                        日增用户统计
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="data/statistics/active.html">
+            
+                
+                    <a href="../../data/statistics/active.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.</b>
+                        
+                        日活跃用户统计
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="data/statistics/orders.html">
+            
+                
+                    <a href="../../data/statistics/orders.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.4.</b>
+                        
+                        日下单用户统计
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="data/statistics/month.html">
+            
+                
+                    <a href="../../data/statistics/month.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.5.</b>
+                        
+                        30天日增用户统计
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.6" data-path="data/statistics/goods.html">
+            
+                
+                    <a href="../../data/statistics/goods.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.6.</b>
+                        
+                        日分类商品访问量
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="data/users/index.html">
+            
+                
+                    <a href="../../data/users/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                        用户管理
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1" data-path="data/users/search.html">
+            
+                
+                    <a href="../../data/users/search.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.</b>
+                        
+                        查询用户
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="data/users/adduser.html">
+            
+                
+                    <a href="../../data/users/adduser.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.2.</b>
+                        
+                        新增用户
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5" data-path="data/goods/index.html">
+            
+                
+                    <a href="../../data/goods/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.</b>
+                        
+                        商品管理
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1" data-path="data/channel/channel.html">
+            
+                
+                    <a href="../../data/channel/channel.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.</b>
+                        
+                        频道表管理
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.1" data-path="data/channel/getchannel.html">
+            
+                
+                    <a href="../../data/channel/getchannel.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.1.</b>
+                        
+                        获取频道表数据
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.2" data-path="data/channel/createchannel.html">
+            
+                
+                    <a href="../../data/channel/createchannel.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.2.</b>
+                        
+                        新增频道表数据
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.3" data-path="data/channel/updatechannel.html">
+            
+                
+                    <a href="../../data/channel/updatechannel.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.3.</b>
+                        
+                        修改频道表数据
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.4" data-path="data/channel/deletechannel.html">
+            
+                
+                    <a href="../../data/channel/deletechannel.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.4.</b>
+                        
+                        删除频道表数据
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="data/image/image.html">
+            
+                
+                    <a href="../../data/image/image.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.2.</b>
+                        
+                        图片表管理
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.2.1" data-path="data/image/getimage.html">
+            
+                
+                    <a href="../../data/image/getimage.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.2.1.</b>
+                        
+                        获取图片表数据
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2.2" data-path="data/image/createimage.html">
+            
+                
+                    <a href="../../data/image/createimage.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.2.2.</b>
+                        
+                        新增图片表数据
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2.3" data-path="data/image/updateimage.html">
+            
+                
+                    <a href="../../data/image/updateimage.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.2.3.</b>
+                        
+                        修改图片表数据
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2.4" data-path="data/image/deleteimage.html">
+            
+                
+                    <a href="../../data/image/deleteimage.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.2.4.</b>
+                        
+                        删除图片表数据
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3" data-path="data/goods/sku.html">
+            
+                
+                    <a href="../../data/goods/sku.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.3.</b>
+                        
+                        SKU表管理
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.3.1" data-path="data/goods/getsku.html">
+            
+                
+                    <a href="../../data/goods/getsku.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.3.1.</b>
+                        
+                        获取SKU表数据
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3.2" data-path="data/goods/createsku.html">
+            
+                
+                    <a href="../../data/goods/createsku.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.3.2.</b>
+                        
+                        新增SKU表数据
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3.3" data-path="data/goods/updatesku.html">
+            
+                
+                    <a href="../../data/goods/updatesku.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.3.3.</b>
+                        
+                        修改SKU表数据
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3.4" data-path="data/goods/deletesku.html">
+            
+                
+                    <a href="../../data/goods/deletesku.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.3.4.</b>
+                        
+                        删除SKU表数据
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6" data-path="data/orders/index.html">
+            
+                
+                    <a href="../../data/orders/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.</b>
+                        
+                        订单管理
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.1" data-path="data/orders/getorders.html">
+            
+                
+                    <a href="../../data/orders/getorders.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.1.</b>
+                        
+                        获取订单列表数据
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2" data-path="data/orders/getdetailorder.html">
+            
+                
+                    <a href="../../data/orders/getdetailorder.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.2.</b>
+                        
+                        获取订单详情数据
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.3" data-path="data/orders/updatestatus.html">
+            
+                
+                    <a href="../../data/orders/updatestatus.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.3.</b>
+                        
+                        修改订单状态数据
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="7" data-path="data/system/index.html">
+            
+                
+                    <a href="../../data/system/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.</b>
+                        
+                        系统管理
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.1" data-path="data/permission/permission.html">
+            
+                
+                    <a href="../../data/permission/permission.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.1.</b>
+                        
+                        权限控制说明
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2" data-path="data/permission/index.html">
+            
+                
+                    <a href="../../data/permission/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.2.</b>
+                        
+                        权限数据管理
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.2.1" data-path="data/permission/getpermission.html">
+            
+                
+                    <a href="../../data/permission/getpermission.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.2.1.</b>
+                        
+                        获取权限表数据
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2.2" data-path="data/permission/createpermission.html">
+            
+                
+                    <a href="../../data/permission/createpermission.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.2.2.</b>
+                        
+                        新增权限表数据
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2.3" data-path="data/permission/updatepermission.html">
+            
+                
+                    <a href="../../data/permission/updatepermission.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.2.3.</b>
+                        
+                        修改权限表数据
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2.4" data-path="data/permission/deletepermission.html">
+            
+                
+                    <a href="../../data/permission/deletepermission.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.2.4.</b>
+                        
+                        删除权限表数据
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="7.3" data-path="data/group/index.html">
+            
+                
+                    <a href="../../data/group/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.3.</b>
+                        
+                        用户组管理
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.3.1" data-path="data/group/getgroup.html">
+            
+                
+                    <a href="../../data/group/getgroup.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.3.1.</b>
+                        
+                        获取用户组表数据
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7.3.2" data-path="data/group/creategroup.html">
+            
+                
+                    <a href="../../data/group/creategroup.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.3.2.</b>
+                        
+                        新增用户组表数据
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7.3.3" data-path="data/group/updategroup.html">
+            
+                
+                    <a href="../../data/group/updategroup.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.3.3.</b>
+                        
+                        修改用户组表数据
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7.3.4" data-path="data/group/deletegroup.html">
+            
+                
+                    <a href="../../data/group/deletegroup.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.3.4.</b>
+                        
+                        删除用户组表数据
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="7.4" data-path="data/admin/index.html">
+            
+                
+                    <a href="../../data/admin/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.4.</b>
+                        
+                        管理员管理
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.4.1" data-path="data/admin/getadmin.html">
+            
+                
+                    <a href="../../data/admin/getadmin.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.4.1.</b>
+                        
+                        获取管理员表数据
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7.4.2" data-path="data/admin/createadmin.html">
+            
+                
+                    <a href="../../data/admin/createadmin.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.4.2.</b>
+                        
+                        新增管理员表数据
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7.4.3" data-path="data/admin/updateadmin.html">
+            
+                
+                    <a href="../../data/admin/updateadmin.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.4.3.</b>
+                        
+                        修改管理员表数据
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7.4.4" data-path="data/admin/deleteadmin.html">
+            
+                
+                    <a href="../../data/admin/deleteadmin.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.4.4.</b>
+                        
+                        删除管理员表数据
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="7.5" data-path="data/perm_use/index.html">
+            
+                
+                    <a href="../../data/perm_use/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.5.</b>
+                        
+                        权限控制使用
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.5.1" data-path="data/perm_use/permssion_required.html">
+            
+                
+                    <a href="../../data/perm_use/permssion_required.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.5.1.</b>
+                        
+                        权限检查设置
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7.5.2" data-path="data/perm_use/permssion_extra.html">
+            
+                
+                    <a href="../../data/perm_use/permssion_extra.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.5.2.</b>
+                        
+                        权限控制拓展方案
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../../" >Django课程讲义</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h1 id="&#x7AE0;&#x8282;&#x6982;&#x8FF0;">&#x7AE0;&#x8282;&#x6982;&#x8FF0;</h1>
+<p>&#x672C;&#x7AE0;&#x8282;&#x6211;&#x4EEC;&#x6765;&#x8BB2;&#x89E3;&#x540E;&#x53F0;&#x7BA1;&#x7406;&#x9996;&#x9875;&#x6570;&#x636E;&#x7EDF;&#x8BA1;&#x7684;&#x529F;&#x80FD;&#x3002;</p>
+<p><img src="../../src/tongji.png" alt="tongji"></p>
+<p><strong>&#x77E5;&#x8BC6;&#x70B9;&#x6982;&#x8FF0;</strong>&#xFF1A;</p>
+<table>
+<thead>
+<tr>
+<th>&#x77E5;&#x8BC6;&#x70B9;</th>
+<th>&#x8BF4;&#x660E;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&#x7F51;&#x7AD9;&#x7528;&#x6237;&#x603B;&#x6570;&#x7EDF;&#x8BA1;</td>
+<td>&#x7406;&#x89E3;&#x7F51;&#x7AD9;&#x7528;&#x6237;&#x603B;&#x6570;&#x7EDF;&#x8BA1;API&#x63A5;&#x53E3;&#x8BBE;&#x8BA1;&#x4E0E;&#x5B9E;&#x73B0;</td>
+</tr>
+<tr>
+<td>&#x7F51;&#x7AD9;&#x65E5;&#x589E;&#x7528;&#x6237;&#x6570;&#x7EDF;&#x8BA1;</td>
+<td>&#x7406;&#x89E3;&#x7F51;&#x7AD9;&#x65E5;&#x589E;&#x7528;&#x6237;&#x6570;&#x7EDF;&#x8BA1;API&#x63A5;&#x53E3;&#x8BBE;&#x8BA1;&#x4E0E;&#x5B9E;&#x73B0;</td>
+</tr>
+<tr>
+<td>&#x7F51;&#x7AD9;&#x65E5;&#x6D3B;&#x8DC3;&#x7528;&#x6237;&#x6570;&#x7EDF;&#x8BA1;</td>
+<td>&#x7406;&#x89E3;&#x7F51;&#x7AD9;&#x65E5;&#x6D3B;&#x8DC3;&#x7528;&#x6237;&#x6570;&#x7EDF;&#x8BA1;API&#x63A5;&#x53E3;&#x8BBE;&#x8BA1;&#x4E0E;&#x5B9E;&#x73B0;</td>
+</tr>
+<tr>
+<td>&#x7F51;&#x7AD9;&#x65E5;&#x4E0B;&#x5355;&#x7528;&#x6237;&#x6570;&#x7EDF;&#x8BA1;</td>
+<td>&#x7406;&#x89E3;&#x7F51;&#x7AD9;&#x65E5;&#x4E0B;&#x5355;&#x7528;&#x6237;&#x6570;&#x7EDF;&#x8BA1;API&#x63A5;&#x53E3;&#x8BBE;&#x8BA1;&#x4E0E;&#x5B9E;&#x73B0;</td>
+</tr>
+<tr>
+<td>&#x7F51;&#x7AD9;&#x8FD1;30&#x5929;&#x6BCF;&#x65E5;&#x65B0;&#x589E;&#x7528;&#x6237;&#x6570;&#x7EDF;&#x8BA1;</td>
+<td>&#x7406;&#x89E3;&#x7F51;&#x7AD9;&#x8FD1;30&#x5929;&#x6BCF;&#x65E5;&#x65B0;&#x589E;&#x7528;&#x6237;&#x6570;&#x7EDF;&#x8BA1;API&#x63A5;&#x53E3;&#x8BBE;&#x8BA1;&#x4E0E;&#x5B9E;&#x73B0;</td>
+</tr>
+<tr>
+<td>&#x7F51;&#x7AD9;&#x6BCF;&#x5929;&#x5206;&#x7C7B;&#x5546;&#x54C1;&#x8BBF;&#x95EE;&#x91CF;&#x7EDF;&#x8BA1;</td>
+<td>&#x7406;&#x89E3;&#x7F51;&#x7AD9;&#x6BCF;&#x5929;&#x5206;&#x7C7B;&#x5546;&#x54C1;&#x8BBF;&#x95EE;&#x91CF;&#x7EDF;&#x8BA1;API&#x63A5;&#x53E3;&#x8BBE;&#x8BA1;&#x4E0E;&#x5B9E;&#x73B0;</td>
+</tr>
+</tbody>
+</table>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../../data/logins/cors.html" class="navigation navigation-prev " aria-label="Previous page: CORS跨域"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../../data/statistics/total.html" class="navigation navigation-next " aria-label="Next page: 用户总数统计"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../../gitbook/app.js"></script>
+
+    
+    <script src="../../gitbook/plugins/gitbook-plugin-splitter/splitter.js"></script>
+    
+
+    
+    <script src="../../gitbook/plugins/gitbook-plugin-toggle-chapters/toggle.js"></script>
+    
+
+    
+    <script src="../../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+    
+    <script src="../../gitbook/plugins/gitbook-plugin-livereload/plugin.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"disqus":{"shortName":"gitbookuse"},"github":{"url":"https://github.com/dododream"},"search-pro":{"cutWordLib":"nodejieba","defineWord":["gitbook-use"]},"sharing":{"weibo":true,"facebook":true,"twitter":true,"google":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"tbfed-pagefooter":{"copyright":"Copyright © ITCast","modify_label":"「Revision Time:","modify_format":"YYYY-MM-DD HH:mm:ss」"},"baidu":{"token":"ff100361cdce95dd4c8fb96b4009f7bc"},"sitemap":{"hostname":"http://www.treenewbee.top"},"donate":{"wechat":"http://weixin.png","alipay":"http://alipay.png","title":"","button":"赏","alipayText":"支付宝打赏","wechatText":"微信打赏"},"edit-link":{"base":"https://github.com/dododream/edit","label":"Edit This Page"},"splitter":{},"toggle-chapters":{},"highlight":{},"fontsettings":{"theme":"white","family":"sans","size":2},"livereload":{}};
+    gitbook.start(config);
+});
+</script>
+
+        <!-- body:end -->
+    </body>
+    <!-- End of book Django课程讲义 -->
+</html>
