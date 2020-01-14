@@ -1,0 +1,7 @@
+{
+    "plugins": [
+        "splitter",
+        "expandable-chapters",
+        "book-summary-scroll-position-saver"
+    ]
+}
